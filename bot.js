@@ -25,8 +25,7 @@ client.on('message', message => {
     message.reply(message.author.avatarURL);
   }
 });
-if(message.content.toLowerCase() ===
-  ["Hh", "Aa"]){
+
 
 message.reply("İyi Sen")
 }; 
