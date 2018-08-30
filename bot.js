@@ -28,7 +28,7 @@ client.on('message', message => {
 if (message.content.toLowerCase() === 'Nasılsın ?')
     {
 
-        message.reply("İyisen"),("İyi Gibi"):
+        message.reply("İyisen"),("İyi Gibi");
       
      
 
