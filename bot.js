@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const token = 'NDIzODIyMjYyNjY4NjIzODcy.DcWaRw.0R2-BI7z6Gf7T2AMVTgw9qpB6QY';
+const token = 'NDIzODIyMjYyNjY4NjIzODcy.DZ--vQ.IKcVC8NiqlZbLVIxOCz7btxaUsg';
 
 client.on('ready', () => {
   console.log(`Bot ${client.user.tag}Adı İle Giriş Yaptı!`);
@@ -194,4 +194,4 @@ client.on('message', msg => {
 	}
 });
 
-  client.login('NDIzODIyMjYyNjY4NjIzODcy.DcWaRw.0R2-BI7z6Gf7T2AMVTgw9qpB6QY');
+  client.login('NDIzODIyMjYyNjY4NjIzODcy.DZ--vQ.IKcVC8NiqlZbLVIxOCz7btxaUsg');
