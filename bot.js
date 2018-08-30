@@ -27,9 +27,6 @@ client.on('message', message => {
 });
 
 
-message.reply("İyi Sen")
-}; 
-
 client.on('message', msg => {
   if (msg.content === '?yardım') {
 	 msg.reply('Sana Özelden Attım Bakarsın.')
