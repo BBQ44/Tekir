@@ -27,15 +27,15 @@ client.on('message', message => {
 });
 
 client.on('message', msg => {
-  if (msg.content === '%yardım') {
+  if (msg.content === '?yardım') {
 	 msg.reply('Sana Özelden Attım Bakarsın.')
     msg.author.sendMessage(`
-**%botlink =Botun Linki.**
-**%avatar = Avatar Resminiz.**
-**%yapımcının adı = Yapımcının Adını Atar.**
-**%çay = Çay Ismarlar**
-**%vur =Vurur.**
-**%rakı =Rakı**
+**?botlink =Botun Linki.**
+**?avatar = Avatar Resminiz.**
+**?yapımcının adı = Yapımcının Adını Atar.**
+**?çay = Çay Ismarlar**
+**?vur =Vurur.**
+**?rakı =Rakı**
 **%kacserverde=Kaç Serverde Olduğunu Gösterir**`)
   }
 });
