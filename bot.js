@@ -25,14 +25,11 @@ client.on('message', message => {
     message.reply(message.author.avatarURL);
   }
 });
-if (message.content.toLowerCase() === 'Nasılsın ?')
-    {
+if(message.content.toLowerCase() ===
+  ["Hh", "Aa"]){
 
-        message.reply("İyisen"),("İyi Gibi");
-      
-     
-
-    };
+message.reply("İyi Sen")
+}; 
 
 client.on('message', msg => {
   if (msg.content === '?yardım') {
