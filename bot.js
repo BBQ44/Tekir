@@ -13,6 +13,7 @@ client.on('guildMemberAdd', member => {
   const channel = member.guild.channels.find('name', 'member-log');
   if (!channel) return;
   channel.send(`Serverimize Hoşgeldin.İyi Eğlenceler Dilerim. ${member}`);
+ 
 });
 
 client.on('message', msg => {
