@@ -18,7 +18,7 @@ client.on('guildMemberAdd', member => {
 
 client.on('message', msg => {
   if (msg.content === '?Yapımcının Adını At') {
-    msg.reply('@[TR]BBQ44#2818'); 
+    msg.reply('@Andres De Fonollosa#9451'); 
   }
 });	
 client.on('message', message => {
@@ -38,48 +38,54 @@ client.on('message', msg => {
 **?çay = Çay Ismarlar**
 **?vur =Vurur.**
 **?rakı =Rakı**
-**%kacserverde=Kaç Serverde Olduğunu Gösterir**`)
+**?kacserverde=Kaç Serverde Olduğunu Gösterir**`)
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'İyi Geceler') {
-    msg.channel.sendMessage('Sanada İyi Geceler'); 
+    msg.channel.sendMessage('Sana da İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
   if (msg.content === 'iyi Geceler') {
-    msg.channel.sendMessage('Sanada İyi Geceler'); 
+    msg.channel.sendMessage('Sana da İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
   if (msg.content === 'iyi geceler') {
-    msg.channel.sendMessage('Sanada İyi Geceler'); 
+    msg.channel.sendMessage('Sana da İyi Geceler'); 
+  }
+});	
+client.on('message', msg => {
+  if (msg.content === 'asd') {
+    msg.channel.sendMessage('aa' ,'Sd');
+			  
   }
 });	
 client.on('message', msg => {
   if (msg.content === 'İyi geceler') {
-    msg.channel.sendMessage('Sanada İyi Geceler'); 
+    msg.channel.sendMessage('Sana da İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
   if (msg.content === 'Iyi geceler') {
-    msg.channel.sendMessage('Sanada İyi Geceler'); 
+    msg.channel.sendMessage('Sana da İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
   if (msg.content === 'Iyı geceler') {
-    msg.channel.sendMessage('Sanada İyi Geceler'); 
+    msg.channel.sendMessage('Sana da İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
   if (msg.content === 'ıyı geceler') {
-    msg.channel.sendMessage('Sanada İyi Geceler'); 
+    msg.channel.sendMessage('Sana da İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
   if (msg.content === 'Iyi Geceler') {
-    msg.channel.sendMessage('Sanada İyi Geceler'); 
+    msg.channel.sendMessage('Sana da İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
