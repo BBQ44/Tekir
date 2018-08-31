@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+const  Discord  =  gerektirir ( "discord.js" );
 const client = new Discord.Client();
 const token = 'NDIzODIyMjYyNjY4NjIzODcy.DZ--vQ.IKcVC8NiqlZbLVIxOCz7btxaUsg';
 
@@ -24,13 +24,6 @@ client.on('message', msg => {
 client.on('message', message => {
   if (message.content === '?avatar') {
     message.reply(message.author.avatarURL);
-  }
-});
-client.on('message', message => {
-  if (message.content === 'Asdfmo') {
-'https://media.giphy.com/media/CZpro4AZHs436/giphy.gif',
-'https://media.giphy.com/media/CZpro4AZHs436/giphy2.gif',
-'https://media.giphy.com/media/CZpro4AZHs436/giphy3.gif',
   }
 });
 
