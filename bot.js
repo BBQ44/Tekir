@@ -26,7 +26,13 @@ client.on('message', message => {
     message.reply(message.author.avatarURL);
   }
 });
-
+client.on('message', message => {
+  if (message.content === 'Asdfmo') {
+'https://media.giphy.com/media/CZpro4AZHs436/giphy.gif',
+'https://media.giphy.com/media/CZpro4AZHs436/giphy2.gif',
+'https://media.giphy.com/media/CZpro4AZHs436/giphy3.gif',
+  }
+});
 
 client.on('message', msg => {
   if (msg.content === '?yardım') {
