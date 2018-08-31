@@ -57,10 +57,10 @@ client.on('message', msg => {
     msg.channel.sendMessage('Sana da İyi Geceler'); 
   }
 });	
-client.on('message', msg => {
-  if (msg.content === 'asd') {
-    msg.channel.sendMessage('aa' ,'Sd');
 			  
+client.on('message', msg => {
+  if (msg.content === 'iyi geceler') {
+    msg.channel.sendMessage('Sanada İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
@@ -90,7 +90,7 @@ client.on('message', msg => {
 });	
 client.on('message', msg => {
   if (msg.content === '?yapımcının adı') {
-    msg.reply('@[TR]BBQ44#2818'); 
+    msg.reply('@Andres de Fonollosa#9451'); 
   }
 });	
 client.on('message', msg => {
