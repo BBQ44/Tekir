@@ -1,6 +1,6 @@
-const  Discord  =  gerektirir ( "discord.js" );
+const Discord = require("discord.js");
 const client = new Discord.Client();
-const token = 'NDIzODIyMjYyNjY4NjIzODcy.DZ--vQ.IKcVC8NiqlZbLVIxOCz7btxaUsg';
+const token = 'WortFDHyX7bOIdn_Hrt0vWOrHwX4S_0H';
 
 client.on('ready', () => {
   console.log(`Bot ${client.user.tag}Adı İle Giriş Yaptı!`);
@@ -13,12 +13,11 @@ client.on('guildMemberAdd', member => {
   const channel = member.guild.channels.find('name', 'member-log');
   if (!channel) return;
   channel.send(`Serverimize Hoşgeldin.İyi Eğlenceler Dilerim. ${member}`);
- 
 });
 
 client.on('message', msg => {
   if (msg.content === '?Yapımcının Adını At') {
-    msg.reply('@Andres De Fonollosa#9451'); 
+    msg.reply('@[TR]BBQ44#2818'); 
   }
 });	
 client.on('message', message => {
@@ -28,35 +27,29 @@ client.on('message', message => {
 });
 
 client.on('message', msg => {
-  if (msg.content === '?yardım') {
+  if (msg.content === '%yardım') {
 	 msg.reply('Sana Özelden Attım Bakarsın.')
     msg.author.sendMessage(`
-**?botlink =Botun Linki.**
-**?avatar = Avatar Resminiz.**
-**?yapımcının adı = Yapımcının Adını Atar.**
-**?çay = Çay Ismarlar**
-**?vur =Vurur.**
-**?rakı =Rakı**
-**?kacserverde=Kaç Serverde Olduğunu Gösterir**`)
+**%botlink =Botun Linki.**
+**%avatar = Avatar Resminiz.**
+**%yapımcının adı = Yapımcının Adını Atar.**
+**%çay = Çay Ismarlar**
+**%vur =Vurur.**
+**%rakı =Rakı**
+**%kacserverde=Kaç Serverde Olduğunu Gösterir**`)
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'İyi Geceler') {
-    msg.channel.sendMessage('Sana da İyi Geceler'); 
+    msg.channel.sendMessage('Sanada İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
   if (msg.content === 'iyi Geceler') {
-    msg.channel.sendMessage('Sana da İyi Geceler'); 
+    msg.channel.sendMessage('Sanada İyi Geceler'); 
   }
 });	
-client.on('message', msg => {
-  if (msg.content === 'iyi geceler') {
-    msg.channel.sendMessage('Sana da İyi Geceler'); 
-  }
-});	
-			  
 client.on('message', msg => {
   if (msg.content === 'iyi geceler') {
     msg.channel.sendMessage('Sanada İyi Geceler'); 
@@ -64,32 +57,32 @@ client.on('message', msg => {
 });	
 client.on('message', msg => {
   if (msg.content === 'İyi geceler') {
-    msg.channel.sendMessage('Sana da İyi Geceler'); 
+    msg.channel.sendMessage('Sanada İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
   if (msg.content === 'Iyi geceler') {
-    msg.channel.sendMessage('Sana da İyi Geceler'); 
+    msg.channel.sendMessage('Sanada İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
   if (msg.content === 'Iyı geceler') {
-    msg.channel.sendMessage('Sana da İyi Geceler'); 
+    msg.channel.sendMessage('Sanada İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
   if (msg.content === 'ıyı geceler') {
-    msg.channel.sendMessage('Sana da İyi Geceler'); 
+    msg.channel.sendMessage('Sanada İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
   if (msg.content === 'Iyi Geceler') {
-    msg.channel.sendMessage('Sana da İyi Geceler'); 
+    msg.channel.sendMessage('Sanada İyi Geceler'); 
   }
 });	
 client.on('message', msg => {
   if (msg.content === '?yapımcının adı') {
-    msg.reply('@Andres de Fonollosa#9451'); 
+    msg.reply('@[TR]BBQ44#2818'); 
   }
 });	
 client.on('message', msg => {
@@ -142,63 +135,75 @@ client.on('message', msg => {
 
 
 client.on('message', msg => {
-	if (msg.content === 'Aq') {
-	msg.reply("Şşşt Düzgün Konuş.");
-	msg.author.sendMessage("Bu Yaptığının Ekran Görüntüsünü Admine Attım.")
-	}
+  if (msg.content === 'Selamın Aleyküm') {
+    msg.reply('Aleyküm Selam');
+  }
 });
 client.on('message', msg => {
-	if (msg.content === 'aq') {
-	msg.reply("Şşşt Düzgün Konuş.");
-	msg.sendMessage("Bu Yaptığının Ekran Görüntüsünü Admine Attım.")
-	}
+  if (msg.content === 'selamın aleyküm') {
+    msg.reply('Aleyküm Selam');
+  }
 });
 client.on('message', msg => {
-	if (msg.content === 'amk') {
-	msg.reply("Şşşt Düzgün Konuş.");
-	msg.sendMessage("Bu Yaptığının Ekran Görüntüsünü Admine Attım.")
-	}
+  if (msg.content === 'selamun aleyküm') {
+    msg.reply('Aleyküm Selam');
+  }
 });
 client.on('message', msg => {
-	if (msg.content === 'AMK') {
-	msg.reply("Şşşt Düzgün Konuş.");
-	msg.sendMessage("Bu Yaptığının Ekran Görüntüsünü Admine Attım.")
-	}
+  if (msg.content === 'selamün aleyküm') {
+    msg.reply('Aleyküm Selam');
+  }
 });
 client.on('message', msg => {
-	if (msg.content === 'Amk') {
-	msg.reply("Şşşt Düzgün Konuş.");
-	msg.sendMessage("Bu Yaptığının Ekran Görüntüsünü Admine Attım.")
-	}
+  if (msg.content === 'sa') {
+    msg.reply('Aleyküm Selam');
+  }
 });
 client.on('message', msg => {
-	if (msg.content === 'mk') {
-	msg.reply("Şşşt Düzgün Konuş.");
-	msg.sendMessage("Bu Yaptığının Ekran Görüntüsünü Admine Attım.")
-	}
+  if (msg.content === 's.a') {
+    msg.reply('Aleyküm Selam');
+  }
 });
 client.on('message', msg => {
-	if (msg.content === 'Mk') {
-	msg.reply("Şşşt Düzgün Konuş.");
-	msg.sendMessage("Bu Yaptığının Ekran Görüntüsünü Admine Attım.")
-	}
+  if (msg.content === 's.a.') {
+    msg.reply('Aleyküm Selam');
+  }
 });
 client.on('message', msg => {
-	if (msg.content === 'MK') {
-	msg.reply("Şşşt Düzgün Konuş.");
-	msg.sendMessage("Bu Yaptığının Ekran Görüntüsünü Admine Attım.")
-	}
+  if (msg.content === 's a') {
+    msg.reply('Aleyküm Selam');
+  }
 });
 client.on('message', msg => {
-	if (msg.content === 'Göt') {
-	msg.reply("Şşşt Düzgün Konuş.");
-	msg.sendMessage("Bu Yaptığının Ekran Görüntüsünü Admine Attım.")
-	}
+  if (msg.content === 'Selamın aleyküm') {
+    msg.reply('Aleyküm Selam');
+  }
 });
+client.on('message', msg => {
+  if (msg.content === 'Selamün aleyküm') {
+    msg.reply('Aleyküm Selam');
+  }
+});
+client.on('message', msg => {
+  if (msg.content === 'Selamun aleyküm') {
+    msg.reply('Aleyküm Selam');
+  }
+});
+client.on('message', msg => {
+  if (msg.content === 'Nasılsın') {
+    msg.reply('İyiyim Sen Nasılsın');
+  }
+});
+client.on('message', msg => {
+  if (msg.content === 'nasılsın') {
+    msg.reply('İyiyim Sen Nasılsın');
+  }
+});
+
 client.on('message', msg => {
 	if (msg.content === '?kacserverde') {
 	msg.reply(`Şu Kadar Serverde => \`${client.guilds.size}\``);
 	}
 });
 
-  client.login('NDIzODIyMjYyNjY4NjIzODcy.DZ--vQ.IKcVC8NiqlZbLVIxOCz7btxaUsg');
+  client.login('WortFDHyX7bOIdn_Hrt0vWOrHwX4S_0H');
