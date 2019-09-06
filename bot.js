@@ -56,11 +56,6 @@ client.on('message', msg => {
   }
 });	
 client.on('message', msg => {
-  if (msg.content === 'İyi geceler') {
-    msg.channel.sendMessage('Sanada İyi Geceler'); 
-  }
-});	
-client.on('message', msg => {
   if (msg.content === 'Iyi geceler') {
     msg.channel.sendMessage('Sanada İyi Geceler'); 
   }
